@@ -10,7 +10,7 @@ class Overworld {
    image.onload = () => {
      this.ctx.drawImage(image,0,0)
    };
-   image.src = "/images/maps/DemoLower.png";
+   image.src = "images/maps/DemoLower.png";
 
    //Place some game objects
    const hero = new GameObject({
@@ -20,7 +20,7 @@ class Overworld {
    const npc1 = new GameObject({
        x: 7,
        y: 9,
-       src: "/images/characters/people/npc1.png";
+       src: "images/characters/people/npc1.png";
    })
    
    setTimeout(() => {
